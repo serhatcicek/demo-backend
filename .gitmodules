@@ -1,0 +1,3 @@
+[submodule "ai-contracts"]
+	path = ai-contracts
+	url = ../ai-contracts-demo
