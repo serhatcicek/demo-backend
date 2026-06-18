@@ -1,2 +1,8 @@
 node_modules/
 memory/
+.env
+*.env
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+uploads/

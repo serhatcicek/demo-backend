@@ -4,6 +4,30 @@
   "private": true,
   "description": "Contract-first backend demo for payments",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhatcicek/demo-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/serhatcicek/demo-backend/issues"
+  },
+  "homepage": "https://github.com/serhatcicek/demo-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "sqlite3": "^6.0.1",
+    "uuid": "^14.0.0"
   }
 }
